@@ -1,0 +1,13 @@
+/*estilos con apariencia normal activada*/
+.zone-content-wrapper .zone-content{
+  margin: 0;
+}
+
+#region-content.grid-18{
+  margin: 0;
+  float: left;
+  width: 76%;
+}
+.zone-content-wrapper .zone-content{
+  width:99%;
+}

@@ -58,10 +58,14 @@ zones[footer2] = Footer second
 
 ; OPTIONAL STYLESHEETS
 
+
 css[estilos.css][name] = Commerce Kickstart theme global estilos.
 css[estilos.css][description] = This file holds all the globally active custom CSS of estilos
 css[estilos.css][options][weight] = 11
 
+css[anormal.css][name] = Commerce Kickstart theme global estilos normal.
+css[anormal.css][description] = This file holds all the globally active custom CSS of estilos normal
+css[anormal.css][options][weight] = 11
 
 settings[alpha_css][commerce_kickstart_style.css] = 'commerce_kickstart_style.css'
 css[commerce_kickstart_style.css][name] = Commerce Kickstart theme global style.
