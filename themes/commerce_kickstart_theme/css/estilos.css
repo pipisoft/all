@@ -1,4 +1,11 @@
-
+/*Globales*/
+ body{
+  background: #fff;
+  font-size: smaller;
+ }
+ #page{
+  padding: 0% 1%;
+ }
 /*ancho de los fluidos*/
 #region-sidebar-first{
   width: 20%;
@@ -121,4 +128,35 @@ a.rojo{
 }
 .navigation .primary-menu ul li a{
   color:#004B91;
+}
+/*buscador*/
+.views-exposed-widgets{
+  background-image: url("../img_amazon/sprite_amazon.png") ;
+   background-color: white;
+    background-position: 0 -510px;
+    background-repeat: repeat-x;
+    height: 34px;
+}
+#block-views-exp-display-products-page #edit-search-api-views-fulltext {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: black;
+    font-size: 12pt;
+    height: 23px;
+    margin: 7px 0 0;
+    outline: 0 none;
+    padding: 0;
+    width: 100%;
+}
+#block-views-exp-display-products-page .views-submit-button{
+   background: url("../img_amazon/sprite_amazon.png") #fff;
+  background-position: -33px -80px;
+    height: 34px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
